@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.counter {
+  @apply p-2 flex flex-col items-center justify-center h-80 sm:w-96 w-full bg-[rgba(177,175,175,0.131)] dark:bg-[rgba(36,36,36,0.131)];
+}
+.counter {
+ 
+  box-shadow: 0 4px 16px 0 rgba(204, 205, 218, 0.254);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 6px;
+
+}
+.commanders {
+  @apply flex flex-row p-2 my-2 items-center justify-center w-full;
+}
+.commanders button {
+  @apply m-2 bg-slate-500 hover:bg-slate-400 dark:bg-slate-400 dark:hover:bg-slate-500 p-2 text-[1.1rem] text-black rounded-[4px] font-IMB-PLEX transition-colors w-32;
+}
+.counter h1 {
+  @apply text-4xl dark:text-slate-400 transition-colors;
+}
