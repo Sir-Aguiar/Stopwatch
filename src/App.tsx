@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { toggleDarkMode } from "./scripts/DarkToggle";
 import { BsFillMoonFill, BsSunFill } from "react-icons/bs";
 const App: React.FC = () => {
-  const [seconds, setSeconds] = useState<number>(7194);
+  const [seconds, setSeconds] = useState<number>(0);
   const [timeController, changeTimeController] = useState<number>(1);
   const [mode, setMode] = useState<boolean>(false);
   useEffect(() => {
